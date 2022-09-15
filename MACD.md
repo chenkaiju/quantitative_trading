@@ -9,7 +9,8 @@ nav_order: 2
 
 應用兩條時間區間不同的EMA，區間較長(ex. $T_1=26$日 )的叫做慢線，區間較短(ex. $T_2=12$日)的叫做快線。  
 計算快線和慢線之間的離差狀態(DIF)，  
-$$ DIF = EMA(close, T_2) - EMA(close, T_1) $$
+$$ DIF = EMA(close, T_2) - EMA(close, T_1) $$  
+
 再以時間區間($T_3=9$)對DIF做EMA，最後產生MACD線  
 $$ MACD = EMA(DIF, T_3) $$  
 
