@@ -1,3 +1,10 @@
+---
+title: EMA
+parent: TA
+has_children: true
+nav_order: 1
+---
+
 <head>
     <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
     <script type="text/x-mathjax-config">
@@ -10,12 +17,6 @@
     </script>
 </head>
 
----
-title: EMA
-parent: TA
-has_children: true
-nav_order: 1
----
   
 # EMA (指數移動平均)
 離現在越遠的價格，影響力(權重)越小，權重以指數遞減 <br>
