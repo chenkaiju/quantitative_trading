@@ -9,11 +9,11 @@ nav_order: 1
 離現在越遠的價格，影響力(權重)越小，權重以指數遞減 <br>
 EMA公式為:  
 
-$$ EMA_{n} = (K \times C) + ((1-K) \times EMA_{n-1}) $$
-$$ C: 今日收盤價 $$
-$$ N: 時間週期 $$
-$$ K: 加權乘數(smoothing/(N+1)) $$
-$$ smoothing: 平滑因子，通常設定為2 $$
+$$ EMA_{n} = (K \times C) + ((1-K) \times EMA_{n-1}) $$  
+$$ C: 今日收盤價 $$  
+$$ N: 時間週期 $$  
+$$ K: 加權乘數(smoothing/(N+1)) $$  
+$$ smoothing: 平滑因子，通常設定為2 $$  
 
 
 | 時間週期 (N) | 加權乘數 (K) |
