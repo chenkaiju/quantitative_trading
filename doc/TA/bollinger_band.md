@@ -20,7 +20,9 @@ nav_order: 3
 2. 計算一段時間($T_1$)價格的移動平均 $ SMA(TP,\ T_1) $  
 3. 計算一段時間($T_1$)價格的標準差 $ std(TP,\ T_1) $  
 4. 計算上線 $ BOLU = SMA(TP,\ T_1) + m \times  std(TP,\ T_1) $  
-5. 計算下線 $ BOLU = SMA(TP,\ T_1) - m \times  std(TP,\ T_1) $  
+5. 計算下線 $ BOLL = SMA(TP,\ T_1) - m \times  std(TP,\ T_1) $  
+
+![alt text](../../images/TA/bollinger_band.png)  
 
 ## 布林通道的統計學解讀  
 
