@@ -1,2 +1,8 @@
 markdown: kramdown
 remote_theme: just-the-docs/just-the-docs
+
+
+# Aux links for the upper right navigation
+aux_links:
+  "GitHub Page":
+    - "//github.com/chenkaiju/quantitative_trading"
