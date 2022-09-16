@@ -1,6 +1,6 @@
 ---
 title: MACD
-parent: TA
+parent: Technical Analysis
 has_children: false
 nav_order: 2
 ---
