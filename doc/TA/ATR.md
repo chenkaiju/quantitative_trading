@@ -1,6 +1,7 @@
 ---
-title: Technical Analysis
-has_children: true
+title: ATR
+parent: Technical Analysis
+has_children: false
 nav_order: 4
 ---
 
